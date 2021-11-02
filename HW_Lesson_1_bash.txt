@@ -1,0 +1,65 @@
+Первое ДЗ (Stanislav @MajorTom_1)
+Linux terminal (GitBash) commands
+
+1) Посмотреть где я -> pwd
+2) Создать папку -> mkdir folder_1
+3) Зайти в папку -> cd folder_1
+4) Создать 3 папки -> mkdir f_1 f_2 f_3
+5) Зайти в любоую папку -> cd f_1
+6) Создать 5 файлов (3 txt, 2 json) -> touch test1.txt test2.txt test3.txt test4.json test5.json
+7) Создать 3 папки -> mkdir f_1 f_2 f_3
+8. Вывести список содержимого папки -> ls
+9) + Открыть любой txt файл -> vim test1.txt
+10) + написать туда что-нибудь, любой текст.-> i (INSERT) "Trying to write ordinary text message! One two three"
+11) + сохранить и выйти. -> (Esc) :wq (Enter)
+12) Выйти из папки на уровень выше ->cd ..
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. -> mv test1.txt test2.txt /d/QA/lesson_1_terminal/folder_1/f_2 или 1 файл из папки f_1 в текущую папку: mv ./f_1/test_3.xml .
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. -> cp test1.txt test2.txt /d/QA/lesson_1_terminal/folder_1/f_1  или находясь в /folder_1 из папки f_3 в f_1
+$ cp ./f_3/{test1.txt,test2.txt} ./f_1
+15) Найти файл по имени -> find -name test_3.xml
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. -> cat test1.txt НЕ ВЕРНО! tail -f test1.txt (отслеживает содержимое файла в РЕАЛЬНОМ времени - последние десять строк)
+17) вывести несколько первых строк из текстового файла -> head -n3 test1.txt
+18) вывести несколько последних строк из текстового файла -> tail -n3 test1.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает. -> less test1.txt
+20) вывести дату и время -> date
+=========
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000 -> curl "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000"
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 ->
+touch test_script
+vim test_script (i)
+#!/bin/bash
+# our comment is here
+echo "Зайти в папку"
+cd folder_1
+echo "Создать 3 папки"
+mkdir f_1 f_2 f_3
+echo "Зайти в любоую папку"
+cd f_1
+echo "Создать 5 файлов (3 txt, 2 json)"
+touch test1.txt test2.txt test3.txt test4.json test5.json
+echo "Создать 3 папки"
+mkdir f_1 f_2 f_3
+echo "Вывести список содержимого папки"
+ls
+echo "Переместить любые 2 файла, которые вы создали, в любую другую папку"
+mv test1.txt test2.txt /d/QA/lesson_1_terminal/folder_1/f_2 
+
+chmod +x ./test_script
+./test_script
+
+
+
+=====================
+1) Посмотреть где я - pwd
+2) Создать папку - mkdir foldername
+3) Зайти в папку - cd foldername
+
+https://losst.ru/nachnite-izuchat-linux-pryamo-sejchas
+
+Losst (https://losst.ru/nachnite-izuchat-linux-pryamo-sejchas)
+Начните изучать Linux прямо сейчас! - Losst
+На этой странице собраны все самые полезные и интересные для новичков и возможно некоторых опытных пользователей в Linux руководства и статьи. В самом
