@@ -1,7 +1,7 @@
-GIT Homework 1 (24 ãðóïïà)
+GIT Homework 1 (24 Ã£Ã°Ã³Ã¯Ã¯Ã )__1
 GitHub. HW_1
 
-1. Íà ëîêàëüíîì ðåïîçèòîðèè ñäåëàòü âåòêè äëÿ:
+1. ÃÃ  Ã«Ã®ÃªÃ Ã«Ã¼Ã­Ã®Ã¬ Ã°Ã¥Ã¯Ã®Ã§Ã¨Ã²Ã®Ã°Ã¨Ã¨ Ã±Ã¤Ã¥Ã«Ã Ã²Ã¼ Ã¢Ã¥Ã²ÃªÃ¨ Ã¤Ã«Ã¿:
 - Postman
 - Jmeter
 - CheckLists
@@ -11,8 +11,8 @@ GitHub. HW_1
 - Mobile testing
 --> $ git branch Postman Jmeter CheckLists Bug_reports SQL Charles Mobile_testing
 
-2. Çàïóøèòü âñå âåòêè íà âíåøíèé ðåïîçèòîðèé --> $ git push -u origin Postman Jmeter CheckLists Bug_reports SQL Charles Mobile_testing  èëè $ git push -u origin --all
-3. Â âåòêå Bag Reports ñäåëàòü òåêñòîâûé äîêóìåíò ñî ñòðóêòóðîé áàã ðåïîðòà --> $ git checkout Bug_reports $ touch BR1.txt $ vim BR1.txt (i) 
+2. Ã‡Ã Ã¯Ã³Ã¸Ã¨Ã²Ã¼ Ã¢Ã±Ã¥ Ã¢Ã¥Ã²ÃªÃ¨ Ã­Ã  Ã¢Ã­Ã¥Ã¸Ã­Ã¨Ã© Ã°Ã¥Ã¯Ã®Ã§Ã¨Ã²Ã®Ã°Ã¨Ã© --> $ git push -u origin Postman Jmeter CheckLists Bug_reports SQL Charles Mobile_testing  Ã¨Ã«Ã¨ $ git push -u origin --all
+3. Ã‚ Ã¢Ã¥Ã²ÃªÃ¥ Bag Reports Ã±Ã¤Ã¥Ã«Ã Ã²Ã¼ Ã²Ã¥ÃªÃ±Ã²Ã®Ã¢Ã»Ã© Ã¤Ã®ÃªÃ³Ã¬Ã¥Ã­Ã² Ã±Ã® Ã±Ã²Ã°Ã³ÃªÃ²Ã³Ã°Ã®Ã© Ã¡Ã Ã£ Ã°Ã¥Ã¯Ã®Ã°Ã²Ã  --> $ git checkout Bug_reports $ touch BR1.txt $ vim BR1.txt (i) 
 Id No.
 Environment
 Summary
@@ -25,10 +25,10 @@ Priority
 Attachment
 (:) (wq)
 
-4. Çàïóøèòü ñòðóêòóðó áàãðåïîðòà íà âíåøíèé ðåïîçèòîðèé --> $ git add .  $ git commit -m "Creating BR1.txt for HW#2" $ git push   
-5. Âìåðæèòü âåòêó Bag Reports â Main --> $ git checkout main   $ git merge Bug_reports
-6. Çàïóøèòü main íà âíåøíèé ðåïîçèòîðèé. --> $ git push -u
-7. Â âåòêå CheckLists íàáðîñàòü ñòðóêòóðó ÷åê ëèñòà.--> $ git checkout CheckLists $ > CL1.txt $ vim CL1.txt (i)
+4. Ã‡Ã Ã¯Ã³Ã¸Ã¨Ã²Ã¼ Ã±Ã²Ã°Ã³ÃªÃ²Ã³Ã°Ã³ Ã¡Ã Ã£Ã°Ã¥Ã¯Ã®Ã°Ã²Ã  Ã­Ã  Ã¢Ã­Ã¥Ã¸Ã­Ã¨Ã© Ã°Ã¥Ã¯Ã®Ã§Ã¨Ã²Ã®Ã°Ã¨Ã© --> $ git add .  $ git commit -m "Creating BR1.txt for HW#2" $ git push   
+5. Ã‚Ã¬Ã¥Ã°Ã¦Ã¨Ã²Ã¼ Ã¢Ã¥Ã²ÃªÃ³ Bag Reports Ã¢ Main --> $ git checkout main   $ git merge Bug_reports
+6. Ã‡Ã Ã¯Ã³Ã¸Ã¨Ã²Ã¼ main Ã­Ã  Ã¢Ã­Ã¥Ã¸Ã­Ã¨Ã© Ã°Ã¥Ã¯Ã®Ã§Ã¨Ã²Ã®Ã°Ã¨Ã©. --> $ git push -u
+7. Ã‚ Ã¢Ã¥Ã²ÃªÃ¥ CheckLists Ã­Ã Ã¡Ã°Ã®Ã±Ã Ã²Ã¼ Ã±Ã²Ã°Ã³ÃªÃ²Ã³Ã°Ã³ Ã·Ã¥Ãª Ã«Ã¨Ã±Ã²Ã .--> $ git checkout CheckLists $ > CL1.txt $ vim CL1.txt (i)
 ID
 Req. ID
 Module
@@ -37,6 +37,6 @@ Test description
 Status
 (:) (wq)
 
-8. Çàïóøèòü ñòðóêòóðó íà âíåøíèé ðåïîçèòîðèé --> $ git add .  $ git commit -m "Creating CL1.txt for HW#2" $ git push
-9. Íà âíåøíåì ðåïîçèòîðèè ñäåëàòü Pull Request âåòêè CheckLists â main --> https://github.com/MajorTom-1/stardust/pulls - New Pull request - CheckLists to Main
-10. Ñèíõðîíèçèðîâàòü Âíåøíþþ è Ëîêàëüíóþ âåòêè Main --> $ git checkout main $ git fetch $ git pull   íó èëè òàê:  git pull origin main
+8. Ã‡Ã Ã¯Ã³Ã¸Ã¨Ã²Ã¼ Ã±Ã²Ã°Ã³ÃªÃ²Ã³Ã°Ã³ Ã­Ã  Ã¢Ã­Ã¥Ã¸Ã­Ã¨Ã© Ã°Ã¥Ã¯Ã®Ã§Ã¨Ã²Ã®Ã°Ã¨Ã© --> $ git add .  $ git commit -m "Creating CL1.txt for HW#2" $ git push
+9. ÃÃ  Ã¢Ã­Ã¥Ã¸Ã­Ã¥Ã¬ Ã°Ã¥Ã¯Ã®Ã§Ã¨Ã²Ã®Ã°Ã¨Ã¨ Ã±Ã¤Ã¥Ã«Ã Ã²Ã¼ Pull Request Ã¢Ã¥Ã²ÃªÃ¨ CheckLists Ã¢ main --> https://github.com/MajorTom-1/stardust/pulls - New Pull request - CheckLists to Main
+10. Ã‘Ã¨Ã­ÃµÃ°Ã®Ã­Ã¨Ã§Ã¨Ã°Ã®Ã¢Ã Ã²Ã¼ Ã‚Ã­Ã¥Ã¸Ã­Ã¾Ã¾ Ã¨ Ã‹Ã®ÃªÃ Ã«Ã¼Ã­Ã³Ã¾ Ã¢Ã¥Ã²ÃªÃ¨ Main --> $ git checkout main $ git fetch $ git pull   Ã­Ã³ Ã¨Ã«Ã¨ Ã²Ã Ãª:  git pull origin main
