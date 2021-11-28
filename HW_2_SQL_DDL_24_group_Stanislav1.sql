@@ -210,10 +210,10 @@ values ('Junior Python developer'),
 -- - role_id. Int, not null (внешний ключ для таблицы roles, поле id)
 create table roles_employee (
 id serial primary key,
-employee_id int unique not null
-role_id int not null
+employee_id int unique not null,
+role_id int not null,
 FOREIGN KEY (employee_id)
-references employees (id)
+references employees (id),
 FOREIGN KEY (role_id)
 references roles_3 (id)
 )
