@@ -28,7 +28,7 @@ print(g)
 print(type(g))
 num_set = {1, 2, 3, 4, 3, 6}
 print(num_set)
-print(type(num_set)) # почему то выдает класс Tuple
+print(type(num_set))
 mixed_set = {2.0, "Nicholas", (1, 2, 3)}
 print(mixed_set)
 print(type(mixed_set))
